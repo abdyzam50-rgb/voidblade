@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "modid:item/portal_spear_hilt_in_hand"
+  }
+}
