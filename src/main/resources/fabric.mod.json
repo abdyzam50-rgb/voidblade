@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "modid",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Void Mod",
+	"description": "Gives the netherite sword and netherite spear an end-portal void texture on their blade, with a custom hilt reskin. Supports enchant glint on the handle only.",
 	"authors": [
-		"Me!"
+		"abdyzam50-rgb"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/abdyzam50-rgb/voidblade",
+		"sources": "https://github.com/abdyzam50-rgb/voidblade"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
