@@ -27,14 +27,14 @@ public final class PortalHiltVoxelCache {
 
     public static void bake(PortalToolType toolType, ItemModel.BakingContext ctx, Identifier modelId) {
         switch (toolType) {
-            case SWORD -> PortalSwordHiltVoxelCache.bake(ctx, modelId);
+            case SWORD, MACE -> PortalSwordHiltVoxelCache.bake(ctx, modelId);
             case SPEAR -> PortalSpearHiltVoxelCache.bake(ctx, modelId);
         }
     }
 
     public static HiltBakeResult forTexture(PortalToolType toolType, Identifier texture) {
         return switch (toolType) {
-            case SWORD -> PortalSwordHiltVoxelCache.forTexture(texture);
+            case SWORD, MACE -> PortalSwordHiltVoxelCache.forTexture(texture);
             case SPEAR -> PortalSpearHiltVoxelCache.forTexture(texture);
         };
     }

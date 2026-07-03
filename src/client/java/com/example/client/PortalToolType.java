@@ -32,6 +32,22 @@ public enum PortalToolType {
                 {  7f/16,  8f/16,  5f/16,  6f/16 },
             }
     ),
+    MACE(
+            Items.MACE,
+            Identifier.fromNamespaceAndPath("modid", "item/portal_mace_hilt"),
+            null,
+            Identifier.fromNamespaceAndPath("modid", "item/portal_mace_hilt"),
+            null,
+            16, 16,
+            16, 16,
+            false,
+            false,
+            // Head area: cols 5-15 (u 5/16–1.0), rows 0-10 from top (v 5/16–1.0).
+            // Transparent pixels inside this region get the portal effect.
+            new float[][] {
+                { 5f/16, 16f/16, 5f/16, 16f/16 }
+            }
+    ),
     SPEAR(
             Items.NETHERITE_SPEAR,
             Identifier.fromNamespaceAndPath("modid", "item/portal_spear_hilt"),
